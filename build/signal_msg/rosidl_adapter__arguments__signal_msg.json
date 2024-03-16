@@ -1,0 +1,6 @@
+{
+  "package_name": "signal_msg",
+  "non_idl_tuples": [
+    "/home/mcr2/ros2_ws/src/signal_msg:msg/SignalDecomposed.msg"
+  ]
+}

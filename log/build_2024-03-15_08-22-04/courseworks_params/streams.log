@@ -1,0 +1,24 @@
+[2.098s] Invoking command in '/home/mcr2/ros2_ws/src/courseworks_params': PYTHONPATH=/home/mcr2/ros2_ws/src/build/courseworks_params/prefix_override:/home/mcr2/ros2_ws/src/install/courseworks_params/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/courseworks_params build --build-base /home/mcr2/ros2_ws/src/build/courseworks_params/build install --record /home/mcr2/ros2_ws/src/build/courseworks_params/install.log --single-version-externally-managed
+[2.356s] running egg_info
+[2.358s] writing ../build/courseworks_params/courseworks_params.egg-info/PKG-INFO
+[2.359s] writing dependency_links to ../build/courseworks_params/courseworks_params.egg-info/dependency_links.txt
+[2.359s] writing entry points to ../build/courseworks_params/courseworks_params.egg-info/entry_points.txt
+[2.360s] writing requirements to ../build/courseworks_params/courseworks_params.egg-info/requires.txt
+[2.360s] writing top-level names to ../build/courseworks_params/courseworks_params.egg-info/top_level.txt
+[2.362s] reading manifest file '../build/courseworks_params/courseworks_params.egg-info/SOURCES.txt'
+[2.363s] adding license file 'LICENSE'
+[2.364s] writing manifest file '../build/courseworks_params/courseworks_params.egg-info/SOURCES.txt'
+[2.364s] running build
+[2.364s] running build_py
+[2.364s] running install
+[2.365s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.365s]   warnings.warn(
+[2.365s] running install_lib
+[2.367s] running install_data
+[2.368s] running install_egg_info
+[2.370s] removing '/home/mcr2/ros2_ws/src/install/courseworks_params/lib/python3.10/site-packages/courseworks_params-0.0.0-py3.10.egg-info' (and everything under it)
+[2.371s] Copying ../build/courseworks_params/courseworks_params.egg-info to /home/mcr2/ros2_ws/src/install/courseworks_params/lib/python3.10/site-packages/courseworks_params-0.0.0-py3.10.egg-info
+[2.372s] running install_scripts
+[2.397s] Installing signal_params script to /home/mcr2/ros2_ws/src/install/courseworks_params/lib/courseworks_params
+[2.398s] writing list of installed files to '/home/mcr2/ros2_ws/src/build/courseworks_params/install.log'
+[2.686s] Invoked command in '/home/mcr2/ros2_ws/src/courseworks_params' returned '0': PYTHONPATH=/home/mcr2/ros2_ws/src/build/courseworks_params/prefix_override:/home/mcr2/ros2_ws/src/install/courseworks_params/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/courseworks_params build --build-base /home/mcr2/ros2_ws/src/build/courseworks_params/build install --record /home/mcr2/ros2_ws/src/build/courseworks_params/install.log --single-version-externally-managed

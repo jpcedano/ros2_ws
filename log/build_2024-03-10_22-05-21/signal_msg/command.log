@@ -1,0 +1,6 @@
+Invoking command in '/home/mcr2/ros2_ws/src/build/signal_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mcr2/ros2_ws/src/signal_msg -DCMAKE_INSTALL_PREFIX=/home/mcr2/ros2_ws/src/install/signal_msg
+Invoked command in '/home/mcr2/ros2_ws/src/build/signal_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mcr2/ros2_ws/src/signal_msg -DCMAKE_INSTALL_PREFIX=/home/mcr2/ros2_ws/src/install/signal_msg
+Invoking command in '/home/mcr2/ros2_ws/src/build/signal_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/signal_msg -- -j6 -l6
+Invoked command in '/home/mcr2/ros2_ws/src/build/signal_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/signal_msg -- -j6 -l6
+Invoking command in '/home/mcr2/ros2_ws/src/build/signal_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/signal_msg
+Invoked command in '/home/mcr2/ros2_ws/src/build/signal_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/signal_msg

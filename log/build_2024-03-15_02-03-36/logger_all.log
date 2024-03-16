@@ -1,0 +1,508 @@
+[1.132s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.132s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x776317a9ac20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x776317a98cd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x776317a98cd0>>)
+[1.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.188s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mcr2/ros2_ws/src'
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(basic_comms) by extensions ['ignore', 'ignore_ament_install']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(basic_comms) by extension 'ignore'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(basic_comms) by extension 'ignore_ament_install'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(basic_comms) by extensions ['colcon_pkg']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(basic_comms) by extension 'colcon_pkg'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(basic_comms) by extensions ['colcon_meta']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(basic_comms) by extension 'colcon_meta'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(basic_comms) by extensions ['ros']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(basic_comms) by extension 'ros'
+[1.206s] DEBUG:colcon.colcon_core.package_identification:Package 'basic_comms' with type 'ros.ament_python' and name 'basic_comms'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(courseworks) by extensions ['ignore', 'ignore_ament_install']
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(courseworks) by extension 'ignore'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(courseworks) by extension 'ignore_ament_install'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(courseworks) by extensions ['colcon_pkg']
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(courseworks) by extension 'colcon_pkg'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(courseworks) by extensions ['colcon_meta']
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(courseworks) by extension 'colcon_meta'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(courseworks) by extensions ['ros']
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(courseworks) by extension 'ros'
+[1.207s] DEBUG:colcon.colcon_core.package_identification:Package 'courseworks' with type 'ros.ament_python' and name 'courseworks'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(courseworks_params) by extensions ['ignore', 'ignore_ament_install']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(courseworks_params) by extension 'ignore'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(courseworks_params) by extension 'ignore_ament_install'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(courseworks_params) by extensions ['colcon_pkg']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(courseworks_params) by extension 'colcon_pkg'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(courseworks_params) by extensions ['colcon_meta']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(courseworks_params) by extension 'colcon_meta'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(courseworks_params) by extensions ['ros']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(courseworks_params) by extension 'ros'
+[1.207s] DEBUG:colcon.colcon_core.package_identification:Package 'courseworks_params' with type 'ros.ament_python' and name 'courseworks_params'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(final_challenge) by extensions ['ignore', 'ignore_ament_install']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(final_challenge) by extension 'ignore'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(final_challenge) by extension 'ignore_ament_install'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(final_challenge) by extensions ['colcon_pkg']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(final_challenge) by extension 'colcon_pkg'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(final_challenge) by extensions ['colcon_meta']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(final_challenge) by extension 'colcon_meta'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(final_challenge) by extensions ['ros']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(final_challenge) by extension 'ros'
+[1.208s] DEBUG:colcon.colcon_core.package_identification:Package 'final_challenge' with type 'ros.ament_python' and name 'final_challenge'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(msgs_clase) by extensions ['ignore', 'ignore_ament_install']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(msgs_clase) by extension 'ignore'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(msgs_clase) by extension 'ignore_ament_install'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(msgs_clase) by extensions ['colcon_pkg']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(msgs_clase) by extension 'colcon_pkg'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(msgs_clase) by extensions ['colcon_meta']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(msgs_clase) by extension 'colcon_meta'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(msgs_clase) by extensions ['ros']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(msgs_clase) by extension 'ros'
+[1.209s] DEBUG:colcon.colcon_core.package_identification:Package 'msgs_clase' with type 'ros.ament_cmake' and name 'msgs_clase'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(signal_decomposition) by extensions ['ignore', 'ignore_ament_install']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(signal_decomposition) by extension 'ignore'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(signal_decomposition) by extension 'ignore_ament_install'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(signal_decomposition) by extensions ['colcon_pkg']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(signal_decomposition) by extension 'colcon_pkg'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(signal_decomposition) by extensions ['colcon_meta']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(signal_decomposition) by extension 'colcon_meta'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(signal_decomposition) by extensions ['ros']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(signal_decomposition) by extension 'ros'
+[1.210s] DEBUG:colcon.colcon_core.package_identification:Package 'signal_decomposition' with type 'ros.ament_python' and name 'signal_decomposition'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(signal_msg) by extensions ['ignore', 'ignore_ament_install']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(signal_msg) by extension 'ignore'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(signal_msg) by extension 'ignore_ament_install'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(signal_msg) by extensions ['colcon_pkg']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(signal_msg) by extension 'colcon_pkg'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(signal_msg) by extensions ['colcon_meta']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(signal_msg) by extension 'colcon_meta'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(signal_msg) by extensions ['ros']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(signal_msg) by extension 'ros'
+[1.210s] DEBUG:colcon.colcon_core.package_identification:Package 'signal_msg' with type 'ros.ament_cmake' and name 'signal_msg'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(sphere_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(sphere_msgs) by extension 'ignore'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(sphere_msgs) by extension 'ignore_ament_install'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(sphere_msgs) by extensions ['colcon_pkg']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(sphere_msgs) by extension 'colcon_pkg'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(sphere_msgs) by extensions ['colcon_meta']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(sphere_msgs) by extension 'colcon_meta'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(sphere_msgs) by extensions ['ros']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(sphere_msgs) by extension 'ros'
+[1.211s] DEBUG:colcon.colcon_core.package_identification:Package 'sphere_msgs' with type 'ros.ament_python' and name 'sphere_msgs'
+[1.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.352s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/mcr2/ros2_ws/src/install
+[1.369s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 18 installed packages in /home/mcr2/ros2_utilities_ws/install
+[1.399s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 360 installed packages in /opt/ros/humble
+[1.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'basic_comms' build argument 'cmake_args' from command line to 'None'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'basic_comms' build argument 'cmake_target' from command line to 'None'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'basic_comms' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'basic_comms' build argument 'cmake_clean_cache' from command line to 'False'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'basic_comms' build argument 'cmake_clean_first' from command line to 'False'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'basic_comms' build argument 'cmake_force_configure' from command line to 'False'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'basic_comms' build argument 'ament_cmake_args' from command line to 'None'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'basic_comms' build argument 'catkin_cmake_args' from command line to 'None'
+[1.494s] Level 5:colcon.colcon_core.verb:set package 'basic_comms' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.494s] DEBUG:colcon.colcon_core.verb:Building package 'basic_comms' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mcr2/ros2_ws/src/build/basic_comms', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mcr2/ros2_ws/src/install/basic_comms', 'merge_install': False, 'path': '/home/mcr2/ros2_ws/src/basic_comms', 'symlink_install': False, 'test_result_base': None}
+[1.512s] Level 5:colcon.colcon_core.verb:set package 'courseworks' build argument 'cmake_args' from command line to 'None'
+[1.512s] Level 5:colcon.colcon_core.verb:set package 'courseworks' build argument 'cmake_target' from command line to 'None'
+[1.512s] Level 5:colcon.colcon_core.verb:set package 'courseworks' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.512s] Level 5:colcon.colcon_core.verb:set package 'courseworks' build argument 'cmake_clean_cache' from command line to 'False'
+[1.512s] Level 5:colcon.colcon_core.verb:set package 'courseworks' build argument 'cmake_clean_first' from command line to 'False'
+[1.512s] Level 5:colcon.colcon_core.verb:set package 'courseworks' build argument 'cmake_force_configure' from command line to 'False'
+[1.512s] Level 5:colcon.colcon_core.verb:set package 'courseworks' build argument 'ament_cmake_args' from command line to 'None'
+[1.512s] Level 5:colcon.colcon_core.verb:set package 'courseworks' build argument 'catkin_cmake_args' from command line to 'None'
+[1.512s] Level 5:colcon.colcon_core.verb:set package 'courseworks' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.512s] DEBUG:colcon.colcon_core.verb:Building package 'courseworks' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mcr2/ros2_ws/src/build/courseworks', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mcr2/ros2_ws/src/install/courseworks', 'merge_install': False, 'path': '/home/mcr2/ros2_ws/src/courseworks', 'symlink_install': False, 'test_result_base': None}
+[1.529s] Level 5:colcon.colcon_core.verb:set package 'courseworks_params' build argument 'cmake_args' from command line to 'None'
+[1.529s] Level 5:colcon.colcon_core.verb:set package 'courseworks_params' build argument 'cmake_target' from command line to 'None'
+[1.529s] Level 5:colcon.colcon_core.verb:set package 'courseworks_params' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.529s] Level 5:colcon.colcon_core.verb:set package 'courseworks_params' build argument 'cmake_clean_cache' from command line to 'False'
+[1.529s] Level 5:colcon.colcon_core.verb:set package 'courseworks_params' build argument 'cmake_clean_first' from command line to 'False'
+[1.529s] Level 5:colcon.colcon_core.verb:set package 'courseworks_params' build argument 'cmake_force_configure' from command line to 'False'
+[1.529s] Level 5:colcon.colcon_core.verb:set package 'courseworks_params' build argument 'ament_cmake_args' from command line to 'None'
+[1.529s] Level 5:colcon.colcon_core.verb:set package 'courseworks_params' build argument 'catkin_cmake_args' from command line to 'None'
+[1.529s] Level 5:colcon.colcon_core.verb:set package 'courseworks_params' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.529s] DEBUG:colcon.colcon_core.verb:Building package 'courseworks_params' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mcr2/ros2_ws/src/build/courseworks_params', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mcr2/ros2_ws/src/install/courseworks_params', 'merge_install': False, 'path': '/home/mcr2/ros2_ws/src/courseworks_params', 'symlink_install': False, 'test_result_base': None}
+[1.545s] Level 5:colcon.colcon_core.verb:set package 'final_challenge' build argument 'cmake_args' from command line to 'None'
+[1.545s] Level 5:colcon.colcon_core.verb:set package 'final_challenge' build argument 'cmake_target' from command line to 'None'
+[1.545s] Level 5:colcon.colcon_core.verb:set package 'final_challenge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.545s] Level 5:colcon.colcon_core.verb:set package 'final_challenge' build argument 'cmake_clean_cache' from command line to 'False'
+[1.545s] Level 5:colcon.colcon_core.verb:set package 'final_challenge' build argument 'cmake_clean_first' from command line to 'False'
+[1.545s] Level 5:colcon.colcon_core.verb:set package 'final_challenge' build argument 'cmake_force_configure' from command line to 'False'
+[1.545s] Level 5:colcon.colcon_core.verb:set package 'final_challenge' build argument 'ament_cmake_args' from command line to 'None'
+[1.545s] Level 5:colcon.colcon_core.verb:set package 'final_challenge' build argument 'catkin_cmake_args' from command line to 'None'
+[1.545s] Level 5:colcon.colcon_core.verb:set package 'final_challenge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.545s] DEBUG:colcon.colcon_core.verb:Building package 'final_challenge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mcr2/ros2_ws/src/build/final_challenge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mcr2/ros2_ws/src/install/final_challenge', 'merge_install': False, 'path': '/home/mcr2/ros2_ws/src/final_challenge', 'symlink_install': False, 'test_result_base': None}
+[1.562s] Level 5:colcon.colcon_core.verb:set package 'msgs_clase' build argument 'cmake_args' from command line to 'None'
+[1.562s] Level 5:colcon.colcon_core.verb:set package 'msgs_clase' build argument 'cmake_target' from command line to 'None'
+[1.562s] Level 5:colcon.colcon_core.verb:set package 'msgs_clase' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.562s] Level 5:colcon.colcon_core.verb:set package 'msgs_clase' build argument 'cmake_clean_cache' from command line to 'False'
+[1.562s] Level 5:colcon.colcon_core.verb:set package 'msgs_clase' build argument 'cmake_clean_first' from command line to 'False'
+[1.562s] Level 5:colcon.colcon_core.verb:set package 'msgs_clase' build argument 'cmake_force_configure' from command line to 'False'
+[1.562s] Level 5:colcon.colcon_core.verb:set package 'msgs_clase' build argument 'ament_cmake_args' from command line to 'None'
+[1.562s] Level 5:colcon.colcon_core.verb:set package 'msgs_clase' build argument 'catkin_cmake_args' from command line to 'None'
+[1.562s] Level 5:colcon.colcon_core.verb:set package 'msgs_clase' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.562s] DEBUG:colcon.colcon_core.verb:Building package 'msgs_clase' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mcr2/ros2_ws/src/build/msgs_clase', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mcr2/ros2_ws/src/install/msgs_clase', 'merge_install': False, 'path': '/home/mcr2/ros2_ws/src/msgs_clase', 'symlink_install': False, 'test_result_base': None}
+[1.579s] Level 5:colcon.colcon_core.verb:set package 'signal_msg' build argument 'cmake_args' from command line to 'None'
+[1.579s] Level 5:colcon.colcon_core.verb:set package 'signal_msg' build argument 'cmake_target' from command line to 'None'
+[1.579s] Level 5:colcon.colcon_core.verb:set package 'signal_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.579s] Level 5:colcon.colcon_core.verb:set package 'signal_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.579s] Level 5:colcon.colcon_core.verb:set package 'signal_msg' build argument 'cmake_clean_first' from command line to 'False'
+[1.579s] Level 5:colcon.colcon_core.verb:set package 'signal_msg' build argument 'cmake_force_configure' from command line to 'False'
+[1.579s] Level 5:colcon.colcon_core.verb:set package 'signal_msg' build argument 'ament_cmake_args' from command line to 'None'
+[1.579s] Level 5:colcon.colcon_core.verb:set package 'signal_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.579s] Level 5:colcon.colcon_core.verb:set package 'signal_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.579s] DEBUG:colcon.colcon_core.verb:Building package 'signal_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mcr2/ros2_ws/src/build/signal_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mcr2/ros2_ws/src/install/signal_msg', 'merge_install': False, 'path': '/home/mcr2/ros2_ws/src/signal_msg', 'symlink_install': False, 'test_result_base': None}
+[1.595s] Level 5:colcon.colcon_core.verb:set package 'signal_decomposition' build argument 'cmake_args' from command line to 'None'
+[1.595s] Level 5:colcon.colcon_core.verb:set package 'signal_decomposition' build argument 'cmake_target' from command line to 'None'
+[1.595s] Level 5:colcon.colcon_core.verb:set package 'signal_decomposition' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.595s] Level 5:colcon.colcon_core.verb:set package 'signal_decomposition' build argument 'cmake_clean_cache' from command line to 'False'
+[1.595s] Level 5:colcon.colcon_core.verb:set package 'signal_decomposition' build argument 'cmake_clean_first' from command line to 'False'
+[1.595s] Level 5:colcon.colcon_core.verb:set package 'signal_decomposition' build argument 'cmake_force_configure' from command line to 'False'
+[1.595s] Level 5:colcon.colcon_core.verb:set package 'signal_decomposition' build argument 'ament_cmake_args' from command line to 'None'
+[1.595s] Level 5:colcon.colcon_core.verb:set package 'signal_decomposition' build argument 'catkin_cmake_args' from command line to 'None'
+[1.595s] Level 5:colcon.colcon_core.verb:set package 'signal_decomposition' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.595s] DEBUG:colcon.colcon_core.verb:Building package 'signal_decomposition' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mcr2/ros2_ws/src/build/signal_decomposition', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mcr2/ros2_ws/src/install/signal_decomposition', 'merge_install': False, 'path': '/home/mcr2/ros2_ws/src/signal_decomposition', 'symlink_install': False, 'test_result_base': None}
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'sphere_msgs' build argument 'cmake_args' from command line to 'None'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'sphere_msgs' build argument 'cmake_target' from command line to 'None'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'sphere_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'sphere_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'sphere_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'sphere_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'sphere_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'sphere_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'sphere_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.613s] DEBUG:colcon.colcon_core.verb:Building package 'sphere_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mcr2/ros2_ws/src/build/sphere_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mcr2/ros2_ws/src/install/sphere_msgs', 'merge_install': False, 'path': '/home/mcr2/ros2_ws/src/sphere_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.629s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.647s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.647s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mcr2/ros2_ws/src/msgs_clase' with build type 'ament_cmake'
+[1.647s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mcr2/ros2_ws/src/msgs_clase'
+[1.666s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.667s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.667s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.740s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mcr2/ros2_ws/src/signal_msg' with build type 'ament_cmake'
+[1.740s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mcr2/ros2_ws/src/signal_msg'
+[1.753s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.753s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.817s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mcr2/ros2_ws/src/basic_comms' with build type 'ament_python'
+[1.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('basic_comms', 'ament_prefix_path')
+[1.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/basic_comms/share/basic_comms/hook/ament_prefix_path.ps1'
+[1.830s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/ros2_ws/src/install/basic_comms/share/basic_comms/hook/ament_prefix_path.dsv'
+[1.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/basic_comms/share/basic_comms/hook/ament_prefix_path.sh'
+[1.846s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.846s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.920s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mcr2/ros2_ws/src/courseworks' with build type 'ament_python'
+[1.920s] Level 1:colcon.colcon_core.shell:create_environment_hook('courseworks', 'ament_prefix_path')
+[1.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/courseworks/share/courseworks/hook/ament_prefix_path.ps1'
+[1.934s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/ros2_ws/src/install/courseworks/share/courseworks/hook/ament_prefix_path.dsv'
+[1.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/courseworks/share/courseworks/hook/ament_prefix_path.sh'
+[1.950s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.950s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.023s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mcr2/ros2_ws/src/courseworks_params' with build type 'ament_python'
+[2.023s] Level 1:colcon.colcon_core.shell:create_environment_hook('courseworks_params', 'ament_prefix_path')
+[2.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/courseworks_params/share/courseworks_params/hook/ament_prefix_path.ps1'
+[2.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/ros2_ws/src/install/courseworks_params/share/courseworks_params/hook/ament_prefix_path.dsv'
+[2.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/courseworks_params/share/courseworks_params/hook/ament_prefix_path.sh'
+[2.054s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.054s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.126s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mcr2/ros2_ws/src/final_challenge' with build type 'ament_python'
+[2.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('final_challenge', 'ament_prefix_path')
+[2.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/final_challenge/share/final_challenge/hook/ament_prefix_path.ps1'
+[2.145s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/ros2_ws/src/install/final_challenge/share/final_challenge/hook/ament_prefix_path.dsv'
+[2.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/final_challenge/share/final_challenge/hook/ament_prefix_path.sh'
+[2.159s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.159s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mcr2/ros2_ws/src/build/msgs_clase': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/ros2_ws/src/install/sphere_msgs:/home/mcr2/ros2_ws/src/install/signal_decomposition:/home/mcr2/ros2_ws/src/install/final_challenge:/home/mcr2/ros2_ws/src/install/courseworks_params:/home/mcr2/ros2_ws/src/install/courseworks:/home/mcr2/ros2_ws/src/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/msgs_clase -- -j6 -l6
+[2.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mcr2/ros2_ws/src/build/signal_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/ros2_ws/src/install/sphere_msgs:/home/mcr2/ros2_ws/src/install/signal_decomposition:/home/mcr2/ros2_ws/src/install/final_challenge:/home/mcr2/ros2_ws/src/install/courseworks_params:/home/mcr2/ros2_ws/src/install/courseworks:/home/mcr2/ros2_ws/src/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/signal_msg -- -j6 -l6
+[2.496s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mcr2/ros2_ws/src/basic_comms'
+[2.516s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.517s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.925s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mcr2/ros2_ws/src/courseworks'
+[2.942s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.942s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.239s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mcr2/ros2_ws/src/courseworks_params'
+[3.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mcr2/ros2_ws/src/build/msgs_clase' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/ros2_ws/src/install/sphere_msgs:/home/mcr2/ros2_ws/src/install/signal_decomposition:/home/mcr2/ros2_ws/src/install/final_challenge:/home/mcr2/ros2_ws/src/install/courseworks_params:/home/mcr2/ros2_ws/src/install/courseworks:/home/mcr2/ros2_ws/src/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/msgs_clase -- -j6 -l6
+[3.621s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mcr2/ros2_ws/src/final_challenge'
+[3.638s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.638s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mcr2/ros2_ws/src/build/signal_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/ros2_ws/src/install/sphere_msgs:/home/mcr2/ros2_ws/src/install/signal_decomposition:/home/mcr2/ros2_ws/src/install/final_challenge:/home/mcr2/ros2_ws/src/install/courseworks_params:/home/mcr2/ros2_ws/src/install/courseworks:/home/mcr2/ros2_ws/src/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/signal_msg -- -j6 -l6
+[3.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mcr2/ros2_ws/src/build/msgs_clase': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/ros2_ws/src/install/sphere_msgs:/home/mcr2/ros2_ws/src/install/signal_decomposition:/home/mcr2/ros2_ws/src/install/final_challenge:/home/mcr2/ros2_ws/src/install/courseworks_params:/home/mcr2/ros2_ws/src/install/courseworks:/home/mcr2/ros2_ws/src/install/basic_comms:/opt/ros/humble /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/msgs_clase
+[3.848s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msgs_clase)
+[3.858s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mcr2/ros2_ws/src/build/msgs_clase' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/ros2_ws/src/install/sphere_msgs:/home/mcr2/ros2_ws/src/install/signal_decomposition:/home/mcr2/ros2_ws/src/install/final_challenge:/home/mcr2/ros2_ws/src/install/courseworks_params:/home/mcr2/ros2_ws/src/install/courseworks:/home/mcr2/ros2_ws/src/install/basic_comms:/opt/ros/humble /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/msgs_clase
+[3.865s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/msgs_clase' for CMake module files
+[3.866s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/msgs_clase' for CMake config files
+[3.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs_clase', 'cmake_prefix_path')
+[3.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/hook/cmake_prefix_path.ps1'
+[3.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/hook/cmake_prefix_path.dsv'
+[3.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/hook/cmake_prefix_path.sh'
+[3.884s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/msgs_clase/lib'
+[3.884s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs_clase', 'ld_library_path_lib')
+[3.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/hook/ld_library_path_lib.ps1'
+[3.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/hook/ld_library_path_lib.dsv'
+[3.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/hook/ld_library_path_lib.sh'
+[3.908s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/msgs_clase/bin'
+[3.908s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/msgs_clase/lib/pkgconfig/msgs_clase.pc'
+[3.908s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/msgs_clase/lib/python3.10/site-packages'
+[3.908s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/msgs_clase/bin'
+[3.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/package.ps1'
+[3.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/package.dsv'
+[3.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/package.sh'
+[3.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/package.bash'
+[3.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/package.zsh'
+[3.936s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mcr2/ros2_ws/src/install/msgs_clase/share/colcon-core/packages/msgs_clase)
+[3.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mcr2/ros2_ws/src/build/signal_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/ros2_ws/src/install/sphere_msgs:/home/mcr2/ros2_ws/src/install/signal_decomposition:/home/mcr2/ros2_ws/src/install/final_challenge:/home/mcr2/ros2_ws/src/install/courseworks_params:/home/mcr2/ros2_ws/src/install/courseworks:/home/mcr2/ros2_ws/src/install/basic_comms:/opt/ros/humble /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/signal_msg
+[4.037s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(signal_msg)
+[4.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mcr2/ros2_ws/src/build/signal_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/ros2_ws/src/install/sphere_msgs:/home/mcr2/ros2_ws/src/install/signal_decomposition:/home/mcr2/ros2_ws/src/install/final_challenge:/home/mcr2/ros2_ws/src/install/courseworks_params:/home/mcr2/ros2_ws/src/install/courseworks:/home/mcr2/ros2_ws/src/install/basic_comms:/opt/ros/humble /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/signal_msg
+[4.055s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/signal_msg' for CMake module files
+[4.056s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/signal_msg' for CMake config files
+[4.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('signal_msg', 'cmake_prefix_path')
+[4.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/hook/cmake_prefix_path.ps1'
+[4.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/hook/cmake_prefix_path.dsv'
+[4.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/hook/cmake_prefix_path.sh'
+[4.080s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/signal_msg/lib'
+[4.080s] Level 1:colcon.colcon_core.shell:create_environment_hook('signal_msg', 'ld_library_path_lib')
+[4.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/hook/ld_library_path_lib.ps1'
+[4.100s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/hook/ld_library_path_lib.dsv'
+[4.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/hook/ld_library_path_lib.sh'
+[4.101s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/signal_msg/bin'
+[4.101s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/signal_msg/lib/pkgconfig/signal_msg.pc'
+[4.101s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/signal_msg/lib/python3.10/site-packages'
+[4.102s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/signal_msg/bin'
+[4.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/package.ps1'
+[4.124s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/package.dsv'
+[4.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/package.sh'
+[4.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/package.bash'
+[4.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/package.zsh'
+[4.128s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mcr2/ros2_ws/src/install/signal_msg/share/colcon-core/packages/signal_msg)
+[4.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mcr2/ros2_ws/src/courseworks_params': PYTHONPATH=/home/mcr2/ros2_ws/src/build/courseworks_params/prefix_override:/home/mcr2/ros2_ws/src/install/courseworks_params/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/courseworks_params build --build-base /home/mcr2/ros2_ws/src/build/courseworks_params/build install --record /home/mcr2/ros2_ws/src/build/courseworks_params/install.log --single-version-externally-managed
+[4.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mcr2/ros2_ws/src/basic_comms': PYTHONPATH=/home/mcr2/ros2_ws/src/build/basic_comms/prefix_override:/home/mcr2/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/basic_comms build --build-base /home/mcr2/ros2_ws/src/build/basic_comms/build install --record /home/mcr2/ros2_ws/src/build/basic_comms/install.log --single-version-externally-managed
+[4.185s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msgs_clase)
+[4.204s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/msgs_clase' for CMake module files
+[4.205s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/msgs_clase' for CMake config files
+[4.205s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs_clase', 'cmake_prefix_path')
+[4.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/hook/cmake_prefix_path.ps1'
+[4.223s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/hook/cmake_prefix_path.dsv'
+[4.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/hook/cmake_prefix_path.sh'
+[4.224s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/msgs_clase/lib'
+[4.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs_clase', 'ld_library_path_lib')
+[4.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/hook/ld_library_path_lib.ps1'
+[4.242s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/hook/ld_library_path_lib.dsv'
+[4.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/hook/ld_library_path_lib.sh'
+[4.243s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/msgs_clase/bin'
+[4.243s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/msgs_clase/lib/pkgconfig/msgs_clase.pc'
+[4.243s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/msgs_clase/lib/python3.10/site-packages'
+[4.243s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/msgs_clase/bin'
+[4.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/package.ps1'
+[4.262s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/package.dsv'
+[4.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/package.sh'
+[4.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/package.bash'
+[4.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/package.zsh'
+[4.264s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mcr2/ros2_ws/src/install/msgs_clase/share/colcon-core/packages/msgs_clase)
+[4.265s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mcr2/ros2_ws/src/sphere_msgs' with build type 'ament_python'
+[4.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('sphere_msgs', 'ament_prefix_path')
+[4.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/sphere_msgs/share/sphere_msgs/hook/ament_prefix_path.ps1'
+[4.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/ros2_ws/src/install/sphere_msgs/share/sphere_msgs/hook/ament_prefix_path.dsv'
+[4.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/sphere_msgs/share/sphere_msgs/hook/ament_prefix_path.sh'
+[4.304s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.304s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mcr2/ros2_ws/src/courseworks': PYTHONPATH=/home/mcr2/ros2_ws/src/build/courseworks/prefix_override:/home/mcr2/ros2_ws/src/install/courseworks/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/courseworks build --build-base /home/mcr2/ros2_ws/src/build/courseworks/build install --record /home/mcr2/ros2_ws/src/build/courseworks/install.log --single-version-externally-managed
+[4.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mcr2/ros2_ws/src/final_challenge': PYTHONPATH=/home/mcr2/ros2_ws/src/build/final_challenge/prefix_override:/home/mcr2/ros2_ws/src/install/final_challenge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/final_challenge build --build-base /home/mcr2/ros2_ws/src/build/final_challenge/build install --record /home/mcr2/ros2_ws/src/build/final_challenge/install.log --single-version-externally-managed
+[4.421s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(signal_msg)
+[4.440s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/signal_msg' for CMake module files
+[4.442s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/signal_msg' for CMake config files
+[4.442s] Level 1:colcon.colcon_core.shell:create_environment_hook('signal_msg', 'cmake_prefix_path')
+[4.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/hook/cmake_prefix_path.ps1'
+[4.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/hook/cmake_prefix_path.dsv'
+[4.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/hook/cmake_prefix_path.sh'
+[4.462s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/signal_msg/lib'
+[4.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('signal_msg', 'ld_library_path_lib')
+[4.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/hook/ld_library_path_lib.ps1'
+[4.480s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/hook/ld_library_path_lib.dsv'
+[4.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/hook/ld_library_path_lib.sh'
+[4.481s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/signal_msg/bin'
+[4.481s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/signal_msg/lib/pkgconfig/signal_msg.pc'
+[4.482s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/signal_msg/lib/python3.10/site-packages'
+[4.482s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/signal_msg/bin'
+[4.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/package.ps1'
+[4.501s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/package.dsv'
+[4.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/package.sh'
+[4.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/package.bash'
+[4.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/signal_msg/share/signal_msg/package.zsh'
+[4.503s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mcr2/ros2_ws/src/install/signal_msg/share/colcon-core/packages/signal_msg)
+[4.505s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mcr2/ros2_ws/src/signal_decomposition' with build type 'ament_python'
+[4.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('signal_decomposition', 'ament_prefix_path')
+[4.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/signal_decomposition/share/signal_decomposition/hook/ament_prefix_path.ps1'
+[4.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/ros2_ws/src/install/signal_decomposition/share/signal_decomposition/hook/ament_prefix_path.dsv'
+[4.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/signal_decomposition/share/signal_decomposition/hook/ament_prefix_path.sh'
+[4.552s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.552s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.934s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mcr2/ros2_ws/src/sphere_msgs'
+[4.951s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.952s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mcr2/ros2_ws/src/courseworks_params' returned '0': PYTHONPATH=/home/mcr2/ros2_ws/src/build/courseworks_params/prefix_override:/home/mcr2/ros2_ws/src/install/courseworks_params/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/courseworks_params build --build-base /home/mcr2/ros2_ws/src/build/courseworks_params/build install --record /home/mcr2/ros2_ws/src/build/courseworks_params/install.log --single-version-externally-managed
+[5.042s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/courseworks_params' for CMake module files
+[5.043s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/courseworks_params' for CMake config files
+[5.043s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/courseworks_params/lib'
+[5.044s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/courseworks_params/bin'
+[5.044s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/courseworks_params/lib/pkgconfig/courseworks_params.pc'
+[5.044s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/courseworks_params/lib/python3.10/site-packages'
+[5.044s] Level 1:colcon.colcon_core.shell:create_environment_hook('courseworks_params', 'pythonpath')
+[5.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/courseworks_params/share/courseworks_params/hook/pythonpath.ps1'
+[5.061s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/ros2_ws/src/install/courseworks_params/share/courseworks_params/hook/pythonpath.dsv'
+[5.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/courseworks_params/share/courseworks_params/hook/pythonpath.sh'
+[5.063s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/courseworks_params/bin'
+[5.063s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(courseworks_params)
+[5.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/courseworks_params/share/courseworks_params/package.ps1'
+[5.080s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mcr2/ros2_ws/src/install/courseworks_params/share/courseworks_params/package.dsv'
+[5.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/courseworks_params/share/courseworks_params/package.sh'
+[5.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/courseworks_params/share/courseworks_params/package.bash'
+[5.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/courseworks_params/share/courseworks_params/package.zsh'
+[5.082s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mcr2/ros2_ws/src/install/courseworks_params/share/colcon-core/packages/courseworks_params)
+[5.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mcr2/ros2_ws/src/basic_comms' returned '0': PYTHONPATH=/home/mcr2/ros2_ws/src/build/basic_comms/prefix_override:/home/mcr2/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/basic_comms build --build-base /home/mcr2/ros2_ws/src/build/basic_comms/build install --record /home/mcr2/ros2_ws/src/build/basic_comms/install.log --single-version-externally-managed
+[5.101s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/basic_comms' for CMake module files
+[5.102s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/basic_comms' for CMake config files
+[5.103s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/basic_comms/lib'
+[5.103s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/basic_comms/bin'
+[5.103s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/basic_comms/lib/pkgconfig/basic_comms.pc'
+[5.104s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages'
+[5.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('basic_comms', 'pythonpath')
+[5.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/basic_comms/share/basic_comms/hook/pythonpath.ps1'
+[5.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/ros2_ws/src/install/basic_comms/share/basic_comms/hook/pythonpath.dsv'
+[5.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/basic_comms/share/basic_comms/hook/pythonpath.sh'
+[5.123s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/basic_comms/bin'
+[5.123s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(basic_comms)
+[5.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/basic_comms/share/basic_comms/package.ps1'
+[5.140s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mcr2/ros2_ws/src/install/basic_comms/share/basic_comms/package.dsv'
+[5.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/basic_comms/share/basic_comms/package.sh'
+[5.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/basic_comms/share/basic_comms/package.bash'
+[5.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/basic_comms/share/basic_comms/package.zsh'
+[5.142s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mcr2/ros2_ws/src/install/basic_comms/share/colcon-core/packages/basic_comms)
+[5.435s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mcr2/ros2_ws/src/signal_decomposition'
+[5.447s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.447s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mcr2/ros2_ws/src/final_challenge' returned '0': PYTHONPATH=/home/mcr2/ros2_ws/src/build/final_challenge/prefix_override:/home/mcr2/ros2_ws/src/install/final_challenge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/final_challenge build --build-base /home/mcr2/ros2_ws/src/build/final_challenge/build install --record /home/mcr2/ros2_ws/src/build/final_challenge/install.log --single-version-externally-managed
+[5.536s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/final_challenge' for CMake module files
+[5.536s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/final_challenge' for CMake config files
+[5.537s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/final_challenge/lib'
+[5.537s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/final_challenge/bin'
+[5.537s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/final_challenge/lib/pkgconfig/final_challenge.pc'
+[5.537s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/final_challenge/lib/python3.10/site-packages'
+[5.537s] Level 1:colcon.colcon_core.shell:create_environment_hook('final_challenge', 'pythonpath')
+[5.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/final_challenge/share/final_challenge/hook/pythonpath.ps1'
+[5.555s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/ros2_ws/src/install/final_challenge/share/final_challenge/hook/pythonpath.dsv'
+[5.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/final_challenge/share/final_challenge/hook/pythonpath.sh'
+[5.556s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/final_challenge/bin'
+[5.556s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(final_challenge)
+[5.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/final_challenge/share/final_challenge/package.ps1'
+[5.575s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mcr2/ros2_ws/src/install/final_challenge/share/final_challenge/package.dsv'
+[5.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/final_challenge/share/final_challenge/package.sh'
+[5.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/final_challenge/share/final_challenge/package.bash'
+[5.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/final_challenge/share/final_challenge/package.zsh'
+[5.576s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mcr2/ros2_ws/src/install/final_challenge/share/colcon-core/packages/final_challenge)
+[5.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mcr2/ros2_ws/src/courseworks' returned '0': PYTHONPATH=/home/mcr2/ros2_ws/src/build/courseworks/prefix_override:/home/mcr2/ros2_ws/src/install/courseworks/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/courseworks build --build-base /home/mcr2/ros2_ws/src/build/courseworks/build install --record /home/mcr2/ros2_ws/src/build/courseworks/install.log --single-version-externally-managed
+[5.602s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/courseworks' for CMake module files
+[5.603s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/courseworks' for CMake config files
+[5.603s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/courseworks/lib'
+[5.603s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/courseworks/bin'
+[5.603s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/courseworks/lib/pkgconfig/courseworks.pc'
+[5.603s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/courseworks/lib/python3.10/site-packages'
+[5.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('courseworks', 'pythonpath')
+[5.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/courseworks/share/courseworks/hook/pythonpath.ps1'
+[5.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/ros2_ws/src/install/courseworks/share/courseworks/hook/pythonpath.dsv'
+[5.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/courseworks/share/courseworks/hook/pythonpath.sh'
+[5.618s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/courseworks/bin'
+[5.618s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(courseworks)
+[5.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/courseworks/share/courseworks/package.ps1'
+[5.631s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mcr2/ros2_ws/src/install/courseworks/share/courseworks/package.dsv'
+[5.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/courseworks/share/courseworks/package.sh'
+[5.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/courseworks/share/courseworks/package.bash'
+[5.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/courseworks/share/courseworks/package.zsh'
+[5.632s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mcr2/ros2_ws/src/install/courseworks/share/colcon-core/packages/courseworks)
+[6.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mcr2/ros2_ws/src/sphere_msgs': CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/msgs_clase:/home/mcr2/ros2_ws/src/install/signal_msg:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/msgs_clase/lib:/home/mcr2/ros2_ws/src/install/signal_msg/lib:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces/lib:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim/lib:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge/lib:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces/lib:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent/lib:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs/lib:/home/mcr2/ros2_utilities_ws/install/aruco_ros/lib:/home/mcr2/ros2_utilities_ws/install/aruco_msgs/lib:/home/mcr2/ros2_utilities_ws/install/aruco/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/mcr2/ros2_ws/src/build/sphere_msgs/prefix_override:/home/mcr2/ros2_ws/src/install/sphere_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/sphere_msgs build --build-base /home/mcr2/ros2_ws/src/build/sphere_msgs/build install --record /home/mcr2/ros2_ws/src/build/sphere_msgs/install.log --single-version-externally-managed
+[6.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mcr2/ros2_ws/src/signal_decomposition': PYTHONPATH=/home/mcr2/ros2_ws/src/build/signal_decomposition/prefix_override:/home/mcr2/ros2_ws/src/install/signal_decomposition/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/signal_decomposition build --build-base /home/mcr2/ros2_ws/src/build/signal_decomposition/build install --record /home/mcr2/ros2_ws/src/build/signal_decomposition/install.log --single-version-externally-managed
+[6.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mcr2/ros2_ws/src/sphere_msgs' returned '0': CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/msgs_clase:/home/mcr2/ros2_ws/src/install/signal_msg:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/msgs_clase/lib:/home/mcr2/ros2_ws/src/install/signal_msg/lib:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces/lib:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim/lib:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge/lib:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces/lib:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent/lib:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs/lib:/home/mcr2/ros2_utilities_ws/install/aruco_ros/lib:/home/mcr2/ros2_utilities_ws/install/aruco_msgs/lib:/home/mcr2/ros2_utilities_ws/install/aruco/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/mcr2/ros2_ws/src/build/sphere_msgs/prefix_override:/home/mcr2/ros2_ws/src/install/sphere_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/sphere_msgs build --build-base /home/mcr2/ros2_ws/src/build/sphere_msgs/build install --record /home/mcr2/ros2_ws/src/build/sphere_msgs/install.log --single-version-externally-managed
+[6.427s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/sphere_msgs' for CMake module files
+[6.427s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/sphere_msgs' for CMake config files
+[6.428s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/sphere_msgs/lib'
+[6.428s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/sphere_msgs/bin'
+[6.428s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/sphere_msgs/lib/pkgconfig/sphere_msgs.pc'
+[6.428s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/sphere_msgs/lib/python3.10/site-packages'
+[6.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('sphere_msgs', 'pythonpath')
+[6.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/sphere_msgs/share/sphere_msgs/hook/pythonpath.ps1'
+[6.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/ros2_ws/src/install/sphere_msgs/share/sphere_msgs/hook/pythonpath.dsv'
+[6.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/sphere_msgs/share/sphere_msgs/hook/pythonpath.sh'
+[6.445s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/sphere_msgs/bin'
+[6.445s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sphere_msgs)
+[6.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/sphere_msgs/share/sphere_msgs/package.ps1'
+[6.462s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mcr2/ros2_ws/src/install/sphere_msgs/share/sphere_msgs/package.dsv'
+[6.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/sphere_msgs/share/sphere_msgs/package.sh'
+[6.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/sphere_msgs/share/sphere_msgs/package.bash'
+[6.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/sphere_msgs/share/sphere_msgs/package.zsh'
+[6.464s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mcr2/ros2_ws/src/install/sphere_msgs/share/colcon-core/packages/sphere_msgs)
+[6.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mcr2/ros2_ws/src/signal_decomposition' returned '0': PYTHONPATH=/home/mcr2/ros2_ws/src/build/signal_decomposition/prefix_override:/home/mcr2/ros2_ws/src/install/signal_decomposition/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/signal_decomposition build --build-base /home/mcr2/ros2_ws/src/build/signal_decomposition/build install --record /home/mcr2/ros2_ws/src/build/signal_decomposition/install.log --single-version-externally-managed
+[6.479s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/signal_decomposition' for CMake module files
+[6.480s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/signal_decomposition' for CMake config files
+[6.480s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/signal_decomposition/lib'
+[6.480s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/signal_decomposition/bin'
+[6.480s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/signal_decomposition/lib/pkgconfig/signal_decomposition.pc'
+[6.481s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/signal_decomposition/lib/python3.10/site-packages'
+[6.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('signal_decomposition', 'pythonpath')
+[6.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/signal_decomposition/share/signal_decomposition/hook/pythonpath.ps1'
+[6.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/ros2_ws/src/install/signal_decomposition/share/signal_decomposition/hook/pythonpath.dsv'
+[6.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/ros2_ws/src/install/signal_decomposition/share/signal_decomposition/hook/pythonpath.sh'
+[6.496s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/ros2_ws/src/install/signal_decomposition/bin'
+[6.497s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(signal_decomposition)
+[6.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/signal_decomposition/share/signal_decomposition/package.ps1'
+[6.516s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mcr2/ros2_ws/src/install/signal_decomposition/share/signal_decomposition/package.dsv'
+[6.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/signal_decomposition/share/signal_decomposition/package.sh'
+[6.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/signal_decomposition/share/signal_decomposition/package.bash'
+[6.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/ros2_ws/src/install/signal_decomposition/share/signal_decomposition/package.zsh'
+[6.518s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mcr2/ros2_ws/src/install/signal_decomposition/share/colcon-core/packages/signal_decomposition)
+[6.518s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.519s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.519s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.519s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.539s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.539s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.539s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.565s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.578s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mcr2/ros2_ws/src/install/local_setup.ps1'
+[6.580s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mcr2/ros2_ws/src/install/_local_setup_util_ps1.py'
+[6.581s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mcr2/ros2_ws/src/install/setup.ps1'
+[6.602s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mcr2/ros2_ws/src/install/local_setup.sh'
+[6.603s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mcr2/ros2_ws/src/install/_local_setup_util_sh.py'
+[6.604s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mcr2/ros2_ws/src/install/setup.sh'
+[6.625s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mcr2/ros2_ws/src/install/local_setup.bash'
+[6.625s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mcr2/ros2_ws/src/install/setup.bash'
+[6.645s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mcr2/ros2_ws/src/install/local_setup.zsh'
+[6.645s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mcr2/ros2_ws/src/install/setup.zsh'

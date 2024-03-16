@@ -1,0 +1,40 @@
+[0.744s] Invoking command in '/home/mcr2/ros2_ws/src/sphere_msgs': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/msgs_clase:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/msgs_clase:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/msgs_clase/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/build/sphere_msgs/prefix_override:/home/mcr2/ros2_ws/src/install/sphere_msgs/lib/python3.10/site-packages:/home/mcr2/ros2_ws/src/install/msgs_clase/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/sphere_msgs build --build-base /home/mcr2/ros2_ws/src/build/sphere_msgs/build install --record /home/mcr2/ros2_ws/src/build/sphere_msgs/install.log --single-version-externally-managed
+[0.983s] running egg_info
+[0.984s] creating ../build/sphere_msgs/sphere_msgs.egg-info
+[0.984s] writing ../build/sphere_msgs/sphere_msgs.egg-info/PKG-INFO
+[0.984s] writing dependency_links to ../build/sphere_msgs/sphere_msgs.egg-info/dependency_links.txt
+[0.984s] writing entry points to ../build/sphere_msgs/sphere_msgs.egg-info/entry_points.txt
+[0.985s] writing requirements to ../build/sphere_msgs/sphere_msgs.egg-info/requires.txt
+[0.985s] writing top-level names to ../build/sphere_msgs/sphere_msgs.egg-info/top_level.txt
+[0.985s] writing manifest file '../build/sphere_msgs/sphere_msgs.egg-info/SOURCES.txt'
+[0.987s] reading manifest file '../build/sphere_msgs/sphere_msgs.egg-info/SOURCES.txt'
+[0.987s] adding license file 'LICENSE'
+[0.987s] writing manifest file '../build/sphere_msgs/sphere_msgs.egg-info/SOURCES.txt'
+[0.988s] running build
+[0.988s] running build_py
+[0.988s] creating /home/mcr2/ros2_ws/src/build/sphere_msgs/build
+[0.988s] creating /home/mcr2/ros2_ws/src/build/sphere_msgs/build/lib
+[0.988s] creating /home/mcr2/ros2_ws/src/build/sphere_msgs/build/lib/sphere_msgs
+[0.988s] copying sphere_msgs/sphere_node.py -> /home/mcr2/ros2_ws/src/build/sphere_msgs/build/lib/sphere_msgs
+[0.989s] copying sphere_msgs/__init__.py -> /home/mcr2/ros2_ws/src/build/sphere_msgs/build/lib/sphere_msgs
+[0.989s] running install
+[0.989s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.989s]   warnings.warn(
+[0.989s] running install_lib
+[0.990s] creating /home/mcr2/ros2_ws/src/install/sphere_msgs/lib/python3.10/site-packages/sphere_msgs
+[0.990s] copying /home/mcr2/ros2_ws/src/build/sphere_msgs/build/lib/sphere_msgs/sphere_node.py -> /home/mcr2/ros2_ws/src/install/sphere_msgs/lib/python3.10/site-packages/sphere_msgs
+[0.990s] copying /home/mcr2/ros2_ws/src/build/sphere_msgs/build/lib/sphere_msgs/__init__.py -> /home/mcr2/ros2_ws/src/install/sphere_msgs/lib/python3.10/site-packages/sphere_msgs
+[0.990s] byte-compiling /home/mcr2/ros2_ws/src/install/sphere_msgs/lib/python3.10/site-packages/sphere_msgs/sphere_node.py to sphere_node.cpython-310.pyc
+[0.991s] byte-compiling /home/mcr2/ros2_ws/src/install/sphere_msgs/lib/python3.10/site-packages/sphere_msgs/__init__.py to __init__.cpython-310.pyc
+[0.991s] running install_data
+[0.992s] creating /home/mcr2/ros2_ws/src/install/sphere_msgs/share/ament_index
+[0.992s] creating /home/mcr2/ros2_ws/src/install/sphere_msgs/share/ament_index/resource_index
+[0.992s] creating /home/mcr2/ros2_ws/src/install/sphere_msgs/share/ament_index/resource_index/packages
+[0.992s] copying resource/sphere_msgs -> /home/mcr2/ros2_ws/src/install/sphere_msgs/share/ament_index/resource_index/packages
+[0.992s] copying package.xml -> /home/mcr2/ros2_ws/src/install/sphere_msgs/share/sphere_msgs
+[0.992s] running install_egg_info
+[0.995s] Copying ../build/sphere_msgs/sphere_msgs.egg-info to /home/mcr2/ros2_ws/src/install/sphere_msgs/lib/python3.10/site-packages/sphere_msgs-0.0.0-py3.10.egg-info
+[0.996s] running install_scripts
+[1.017s] Installing sphere_node script to /home/mcr2/ros2_ws/src/install/sphere_msgs/lib/sphere_msgs
+[1.018s] writing list of installed files to '/home/mcr2/ros2_ws/src/build/sphere_msgs/install.log'
+[1.040s] Invoked command in '/home/mcr2/ros2_ws/src/sphere_msgs' returned '0': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/msgs_clase:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/msgs_clase:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/msgs_clase/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/build/sphere_msgs/prefix_override:/home/mcr2/ros2_ws/src/install/sphere_msgs/lib/python3.10/site-packages:/home/mcr2/ros2_ws/src/install/msgs_clase/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/sphere_msgs build --build-base /home/mcr2/ros2_ws/src/build/sphere_msgs/build install --record /home/mcr2/ros2_ws/src/build/sphere_msgs/install.log --single-version-externally-managed

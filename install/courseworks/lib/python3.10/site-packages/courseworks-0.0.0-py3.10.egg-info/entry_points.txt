@@ -1,0 +1,4 @@
+[console_scripts]
+reconstruction = courseworks.reconstruction:main
+signal_generator = courseworks.signal_generator:main
+

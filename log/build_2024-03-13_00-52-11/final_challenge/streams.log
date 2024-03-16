@@ -1,0 +1,25 @@
+[2.180s] Invoking command in '/home/mcr2/ros2_ws/src/final_challenge': PYTHONPATH=/home/mcr2/ros2_ws/src/build/final_challenge/prefix_override:/home/mcr2/ros2_ws/src/install/final_challenge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/final_challenge build --build-base /home/mcr2/ros2_ws/src/build/final_challenge/build install --record /home/mcr2/ros2_ws/src/build/final_challenge/install.log --single-version-externally-managed
+[2.489s] running egg_info
+[2.490s] writing ../build/final_challenge/final_challenge.egg-info/PKG-INFO
+[2.490s] writing dependency_links to ../build/final_challenge/final_challenge.egg-info/dependency_links.txt
+[2.491s] writing entry points to ../build/final_challenge/final_challenge.egg-info/entry_points.txt
+[2.492s] writing requirements to ../build/final_challenge/final_challenge.egg-info/requires.txt
+[2.492s] writing top-level names to ../build/final_challenge/final_challenge.egg-info/top_level.txt
+[2.494s] reading manifest file '../build/final_challenge/final_challenge.egg-info/SOURCES.txt'
+[2.495s] writing manifest file '../build/final_challenge/final_challenge.egg-info/SOURCES.txt'
+[2.495s] running build
+[2.495s] running build_py
+[2.495s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.495s]   warnings.warn(
+[2.495s] running install
+[2.496s] running install_lib
+[2.499s] running install_data
+[2.499s] copying package.xml -> /home/mcr2/ros2_ws/src/install/final_challenge/share/final_challenge
+[2.500s] copying config/params.yaml -> /home/mcr2/ros2_ws/src/install/final_challenge/share/final_challenge/config
+[2.500s] running install_egg_info
+[2.501s] removing '/home/mcr2/ros2_ws/src/install/final_challenge/lib/python3.10/site-packages/final_challenge-0.0.0-py3.10.egg-info' (and everything under it)
+[2.501s] Copying ../build/final_challenge/final_challenge.egg-info to /home/mcr2/ros2_ws/src/install/final_challenge/lib/python3.10/site-packages/final_challenge-0.0.0-py3.10.egg-info
+[2.501s] running install_scripts
+[2.523s] Installing setpoint script to /home/mcr2/ros2_ws/src/install/final_challenge/lib/final_challenge
+[2.527s] writing list of installed files to '/home/mcr2/ros2_ws/src/build/final_challenge/install.log'
+[3.077s] Invoked command in '/home/mcr2/ros2_ws/src/final_challenge' returned '0': PYTHONPATH=/home/mcr2/ros2_ws/src/build/final_challenge/prefix_override:/home/mcr2/ros2_ws/src/install/final_challenge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/final_challenge build --build-base /home/mcr2/ros2_ws/src/build/final_challenge/build install --record /home/mcr2/ros2_ws/src/build/final_challenge/install.log --single-version-externally-managed

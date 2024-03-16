@@ -1,0 +1,28 @@
+running egg_info
+writing ../build/courseworks/courseworks.egg-info/PKG-INFO
+writing dependency_links to ../build/courseworks/courseworks.egg-info/dependency_links.txt
+writing entry points to ../build/courseworks/courseworks.egg-info/entry_points.txt
+writing requirements to ../build/courseworks/courseworks.egg-info/requires.txt
+writing top-level names to ../build/courseworks/courseworks.egg-info/top_level.txt
+reading manifest file '../build/courseworks/courseworks.egg-info/SOURCES.txt'
+writing manifest file '../build/courseworks/courseworks.egg-info/SOURCES.txt'
+running build
+running build_py
+copying courseworks/reconstruction.py -> /home/mcr2/ros2_ws/src/build/courseworks/build/lib/courseworks
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+copying /home/mcr2/ros2_ws/src/build/courseworks/build/lib/courseworks/reconstruction.py -> /home/mcr2/ros2_ws/src/install/courseworks/lib/python3.10/site-packages/courseworks
+byte-compiling /home/mcr2/ros2_ws/src/install/courseworks/lib/python3.10/site-packages/courseworks/reconstruction.py to reconstruction.cpython-310.pyc
+running install_data
+copying package.xml -> /home/mcr2/ros2_ws/src/install/courseworks/share/courseworks
+creating /home/mcr2/ros2_ws/src/install/courseworks/share/courseworks/launch
+copying launch/signal_launch.py -> /home/mcr2/ros2_ws/src/install/courseworks/share/courseworks/launch
+running install_egg_info
+removing '/home/mcr2/ros2_ws/src/install/courseworks/lib/python3.10/site-packages/courseworks-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/courseworks/courseworks.egg-info to /home/mcr2/ros2_ws/src/install/courseworks/lib/python3.10/site-packages/courseworks-0.0.0-py3.10.egg-info
+running install_scripts
+Installing reconstruction script to /home/mcr2/ros2_ws/src/install/courseworks/lib/courseworks
+Installing signal_generator script to /home/mcr2/ros2_ws/src/install/courseworks/lib/courseworks
+writing list of installed files to '/home/mcr2/ros2_ws/src/build/courseworks/install.log'

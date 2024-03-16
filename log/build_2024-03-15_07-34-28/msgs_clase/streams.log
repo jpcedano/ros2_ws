@@ -1,0 +1,142 @@
+[0.608s] Invoking command in '/home/mcr2/ros2_ws/src/build/msgs_clase': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/msgs_clase -- -j6 -l6
+[1.994s] [  3%] Built target msgs_clase__cpp
+[1.994s] [ 12%] Built target msgs_clase__rosidl_generator_c
+[1.995s] [ 12%] Built target ament_cmake_python_copy_msgs_clase
+[1.995s] [ 22%] Built target msgs_clase__rosidl_typesupport_cpp
+[1.995s] [ 32%] Built target msgs_clase__rosidl_typesupport_fastrtps_cpp
+[1.996s] [ 41%] Built target msgs_clase__rosidl_typesupport_introspection_cpp
+[1.996s] [ 51%] Built target msgs_clase__rosidl_typesupport_fastrtps_c
+[1.996s] [ 61%] Built target msgs_clase__rosidl_typesupport_c
+[1.996s] [ 70%] Built target msgs_clase__rosidl_typesupport_introspection_c
+[1.996s] [ 70%] Built target msgs_clase
+[1.998s] [ 74%] Built target msgs_clase__py
+[2.001s] [ 80%] Built target msgs_clase__rosidl_generator_py
+[2.001s] [ 87%] Built target msgs_clase__rosidl_typesupport_fastrtps_c__pyext
+[2.002s] [ 93%] Built target msgs_clase__rosidl_typesupport_introspection_c__pyext
+[2.002s] [100%] Built target msgs_clase__rosidl_typesupport_c__pyext
+[2.003s] running egg_info
+[2.003s] writing msgs_clase.egg-info/PKG-INFO
+[2.004s] writing dependency_links to msgs_clase.egg-info/dependency_links.txt
+[2.004s] writing top-level names to msgs_clase.egg-info/top_level.txt
+[2.004s] reading manifest file 'msgs_clase.egg-info/SOURCES.txt'
+[2.004s] writing manifest file 'msgs_clase.egg-info/SOURCES.txt'
+[2.005s] [100%] Built target ament_cmake_python_build_msgs_clase_egg
+[2.362s] Invoked command in '/home/mcr2/ros2_ws/src/build/msgs_clase' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mcr2/ros2_ws/src/build/msgs_clase -- -j6 -l6
+[2.631s] Invoking command in '/home/mcr2/ros2_ws/src/build/msgs_clase': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/msgs_clase
+[2.650s] -- Install configuration: ""
+[2.651s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/ament_index/resource_index/rosidl_interfaces/msgs_clase
+[2.652s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase
+[2.652s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg
+[2.652s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/sphere.h
+[2.652s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/detail
+[2.653s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/detail/sphere__struct.h
+[2.653s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/detail/sphere__type_support.h
+[2.653s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/detail/sphere__functions.h
+[2.653s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/detail/sphere__functions.c
+[2.653s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/rosidl_generator_c__visibility_control.h
+[2.653s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/environment/library_path.sh
+[2.653s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/environment/library_path.dsv
+[2.657s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/lib/libmsgs_clase__rosidl_generator_c.so
+[2.657s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase
+[2.658s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg
+[2.658s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.658s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/detail
+[2.658s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[2.661s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/lib/libmsgs_clase__rosidl_typesupport_fastrtps_c.so
+[2.662s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase
+[2.662s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg
+[2.662s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/detail
+[2.663s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/detail/sphere__builder.hpp
+[2.663s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/detail/sphere__struct.hpp
+[2.663s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/detail/sphere__traits.hpp
+[2.663s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/sphere.hpp
+[2.664s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase
+[2.664s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg
+[2.664s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.664s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/detail
+[2.665s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/detail/dds_fastrtps
+[2.665s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[2.668s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/lib/libmsgs_clase__rosidl_typesupport_fastrtps_cpp.so
+[2.669s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase
+[2.669s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg
+[2.669s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.669s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/detail
+[2.670s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/detail/sphere__type_support.c
+[2.670s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[2.672s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/lib/libmsgs_clase__rosidl_typesupport_introspection_c.so
+[2.673s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/lib/libmsgs_clase__rosidl_typesupport_c.so
+[2.674s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase
+[2.674s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg
+[2.675s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/detail
+[2.675s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/detail/sphere__type_support.cpp
+[2.675s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/include/msgs_clase/msgs_clase/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[2.676s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/lib/libmsgs_clase__rosidl_typesupport_introspection_cpp.so
+[2.678s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/lib/libmsgs_clase__rosidl_typesupport_cpp.so
+[2.679s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/environment/pythonpath.sh
+[2.679s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/environment/pythonpath.dsv
+[2.679s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/local/lib/python3.10/dist-packages/msgs_clase-0.0.0-py3.10.egg-info
+[2.680s] -- Installing: /home/mcr2/ros2_ws/src/install/msgs_clase/local/lib/python3.10/dist-packages/msgs_clase-0.0.0-py3.10.egg-info/PKG-INFO
+[2.680s] -- Installing: /home/mcr2/ros2_ws/src/install/msgs_clase/local/lib/python3.10/dist-packages/msgs_clase-0.0.0-py3.10.egg-info/top_level.txt
+[2.681s] -- Installing: /home/mcr2/ros2_ws/src/install/msgs_clase/local/lib/python3.10/dist-packages/msgs_clase-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.681s] -- Installing: /home/mcr2/ros2_ws/src/install/msgs_clase/local/lib/python3.10/dist-packages/msgs_clase-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.682s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/local/lib/python3.10/dist-packages/msgs_clase
+[2.682s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/local/lib/python3.10/dist-packages/msgs_clase/msgs_clase_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.682s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/local/lib/python3.10/dist-packages/msgs_clase/_msgs_clase_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.682s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/local/lib/python3.10/dist-packages/msgs_clase/msgs_clase_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.683s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/local/lib/python3.10/dist-packages/msgs_clase/_msgs_clase_s.ep.rosidl_typesupport_introspection_c.c
+[2.683s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/local/lib/python3.10/dist-packages/msgs_clase/msgs_clase_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.683s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/local/lib/python3.10/dist-packages/msgs_clase/_msgs_clase_s.ep.rosidl_typesupport_c.c
+[2.683s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/local/lib/python3.10/dist-packages/msgs_clase/msg
+[2.684s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/local/lib/python3.10/dist-packages/msgs_clase/msg/_sphere_s.c
+[2.684s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/local/lib/python3.10/dist-packages/msgs_clase/msg/_sphere.py
+[2.684s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/local/lib/python3.10/dist-packages/msgs_clase/msg/__init__.py
+[2.684s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/local/lib/python3.10/dist-packages/msgs_clase/libmsgs_clase__rosidl_generator_py.so
+[2.685s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/local/lib/python3.10/dist-packages/msgs_clase/__init__.py
+[2.759s] Listing '/home/mcr2/ros2_ws/src/install/msgs_clase/local/lib/python3.10/dist-packages/msgs_clase'...
+[2.759s] Listing '/home/mcr2/ros2_ws/src/install/msgs_clase/local/lib/python3.10/dist-packages/msgs_clase/msg'...
+[2.768s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/local/lib/python3.10/dist-packages/msgs_clase/msgs_clase_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.769s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/local/lib/python3.10/dist-packages/msgs_clase/msgs_clase_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.771s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/local/lib/python3.10/dist-packages/msgs_clase/msgs_clase_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.773s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/lib/libmsgs_clase__rosidl_generator_py.so
+[2.774s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/msg/Sphere.idl
+[2.774s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/msg/Sphere.msg
+[2.775s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/ament_index/resource_index/package_run_dependencies/msgs_clase
+[2.775s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/ament_index/resource_index/parent_prefix_path/msgs_clase
+[2.775s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/environment/ament_prefix_path.sh
+[2.776s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/environment/ament_prefix_path.dsv
+[2.777s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/environment/path.sh
+[2.777s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/environment/path.dsv
+[2.778s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/local_setup.bash
+[2.778s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/local_setup.sh
+[2.778s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/local_setup.zsh
+[2.778s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/local_setup.dsv
+[2.779s] -- Installing: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/package.dsv
+[2.780s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/ament_index/resource_index/packages/msgs_clase
+[2.786s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/export_msgs_clase__rosidl_generator_cExport.cmake
+[2.786s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/export_msgs_clase__rosidl_generator_cExport-noconfig.cmake
+[2.787s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/export_msgs_clase__rosidl_typesupport_fastrtps_cExport.cmake
+[2.787s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/export_msgs_clase__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.788s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/export_msgs_clase__rosidl_generator_cppExport.cmake
+[2.789s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/export_msgs_clase__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.789s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/export_msgs_clase__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.790s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/msgs_clase__rosidl_typesupport_introspection_cExport.cmake
+[2.790s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/msgs_clase__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.791s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/msgs_clase__rosidl_typesupport_cExport.cmake
+[2.792s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/msgs_clase__rosidl_typesupport_cExport-noconfig.cmake
+[2.793s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/msgs_clase__rosidl_typesupport_introspection_cppExport.cmake
+[2.793s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/msgs_clase__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.794s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/msgs_clase__rosidl_typesupport_cppExport.cmake
+[2.795s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/msgs_clase__rosidl_typesupport_cppExport-noconfig.cmake
+[2.796s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/export_msgs_clase__rosidl_generator_pyExport.cmake
+[2.796s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/export_msgs_clase__rosidl_generator_pyExport-noconfig.cmake
+[2.796s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/rosidl_cmake-extras.cmake
+[2.797s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.797s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.797s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/ament_cmake_export_libraries-extras.cmake
+[2.797s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/ament_cmake_export_targets-extras.cmake
+[2.798s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.798s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.798s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/msgs_claseConfig.cmake
+[2.798s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/cmake/msgs_claseConfig-version.cmake
+[2.798s] -- Up-to-date: /home/mcr2/ros2_ws/src/install/msgs_clase/share/msgs_clase/package.xml
+[2.817s] Invoked command in '/home/mcr2/ros2_ws/src/build/msgs_clase' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mcr2/ros2_ws/src/build/msgs_clase

@@ -1,0 +1,24 @@
+[2.379s] Invoking command in '/home/mcr2/ros2_ws/src/basic_comms': PYTHONPATH=/home/mcr2/ros2_ws/src/build/basic_comms/prefix_override:/home/mcr2/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/basic_comms build --build-base /home/mcr2/ros2_ws/src/build/basic_comms/build install --record /home/mcr2/ros2_ws/src/build/basic_comms/install.log --single-version-externally-managed
+[2.649s] running egg_info
+[2.650s] writing ../build/basic_comms/basic_comms.egg-info/PKG-INFO
+[2.651s] writing dependency_links to ../build/basic_comms/basic_comms.egg-info/dependency_links.txt
+[2.651s] writing entry points to ../build/basic_comms/basic_comms.egg-info/entry_points.txt
+[2.651s] writing requirements to ../build/basic_comms/basic_comms.egg-info/requires.txt
+[2.652s] writing top-level names to ../build/basic_comms/basic_comms.egg-info/top_level.txt
+[2.654s] reading manifest file '../build/basic_comms/basic_comms.egg-info/SOURCES.txt'
+[2.655s] writing manifest file '../build/basic_comms/basic_comms.egg-info/SOURCES.txt'
+[2.656s] running build
+[2.656s] running build_py
+[2.656s] running install
+[2.657s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.657s]   warnings.warn(
+[2.657s] running install_lib
+[2.659s] running install_data
+[2.661s] running install_egg_info
+[2.662s] removing '/home/mcr2/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages/basic_comms-0.0.0-py3.10.egg-info' (and everything under it)
+[2.663s] Copying ../build/basic_comms/basic_comms.egg-info to /home/mcr2/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages/basic_comms-0.0.0-py3.10.egg-info
+[2.664s] running install_scripts
+[2.686s] Installing listener script to /home/mcr2/ros2_ws/src/install/basic_comms/lib/basic_comms
+[2.687s] Installing talker script to /home/mcr2/ros2_ws/src/install/basic_comms/lib/basic_comms
+[2.688s] writing list of installed files to '/home/mcr2/ros2_ws/src/build/basic_comms/install.log'
+[3.293s] Invoked command in '/home/mcr2/ros2_ws/src/basic_comms' returned '0': PYTHONPATH=/home/mcr2/ros2_ws/src/build/basic_comms/prefix_override:/home/mcr2/ros2_ws/src/install/basic_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/basic_comms build --build-base /home/mcr2/ros2_ws/src/build/basic_comms/build install --record /home/mcr2/ros2_ws/src/build/basic_comms/install.log --single-version-externally-managed

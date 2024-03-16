@@ -1,0 +1,6 @@
+source;share/signal_decomposition/hook/pythonpath.ps1
+source;share/signal_decomposition/hook/pythonpath.dsv
+source;share/signal_decomposition/hook/pythonpath.sh
+source;share/signal_decomposition/hook/ament_prefix_path.ps1
+source;share/signal_decomposition/hook/ament_prefix_path.dsv
+source;share/signal_decomposition/hook/ament_prefix_path.sh
